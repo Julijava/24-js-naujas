@@ -15,7 +15,7 @@ console.log('Labas rytas');
 
 
 /*Reiksmiu tipai:
-    number
+    number (skaicius)
     string (tekstas)
     boolean (logine reiksme)
     array (sarašas)

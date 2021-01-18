@@ -14,14 +14,13 @@ if (tikrinama salyga) {
 
 SABLONAI:
  if () {}
- if () { else {}
+ if () {} else {}
 if () {} else 
-
 
 */
 
-const a = 400;
-const b = '400';
+const a = 4;
+const b = 2;
 
 const c = +b;
 console.log(c);
@@ -35,7 +34,7 @@ if (a === c) {
 
 console.log('---------------------');
 
-const spalva = 'rudos';
+const spalva = 'melyna';
 
 if (spalva ==='melyna') {
     console.log('Arijai!');
@@ -46,7 +45,7 @@ if (spalva ==='melyna') {
 } else if (spalva ==='raudonos') {
     console.log('Turbut programuotojas...');
 } else {
-    console.log('Ar tu turi akia?');
+    console.log('Ar tu turi akis?');
 }
 
 const moneta = 'briauna';

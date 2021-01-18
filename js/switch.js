@@ -25,7 +25,7 @@ switch (day) {
     break;
 
 }
-
+/*
 console.log('----------------');
 
 const stotele = 'ziedas';
@@ -40,4 +40,6 @@ console.log('-------------------');
 
 const eiga = 'sienos'; 
     
+*/
+
 
