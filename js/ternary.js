@@ -18,12 +18,13 @@ const variklisIjungtas = false;
 
 const arJudam = variklisIjungtas === true ? 'vaziuojam' : 'stovim';
 console.log(arJudam);
-/*
+
+
 const arAlkanas = false;
 
 const arAlkanas = arAlkanas === true ? 'einam valgyti' : 'valgom';
 console.log(einamValgyti);
-*/
+
 
 /*
 console.log('--------------------');
