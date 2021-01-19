@@ -34,7 +34,7 @@ if (a === c) {
 
 console.log('---------------------');
 
-const spalva = 'melyna';
+const spalva = 'zalia';
 
 if (spalva ==='melyna') {
     console.log('Arijai!');
@@ -47,8 +47,9 @@ if (spalva ==='melyna') {
 } else {
     console.log('Ar tu turi akis?');
 }
+ console.log('----------------------');
 
-const moneta = 'briauna';
+const moneta = 'ore';
 
 if (moneta === 'skaicius') {
     console.log('Iskrito skaicius ');
@@ -56,10 +57,13 @@ if (moneta === 'skaicius') {
     if (moneta === 'herbas') {
         console.log('Iskrito herbas ');
     } else {
-        console.log('Tai gal iskrito briauna???');
-    }
+        if (moneta === 'briauna') {
+            console.log('Tai gal iskrito briauna???');
+        } else {
+            console.log('tai moneta vis dar ore');
+        }
+     }
 }
-
 console.log('---------------------');
 
 const namoTipas = 'namas';    //namas, butas
@@ -67,8 +71,22 @@ const kaipKilti = 'laiptai';   //laiptai, liftas
 
 if (namoTipas === 'namas') {
     if (kaipKilti === 'laiptai') {
-        
+        console.log('Ieinu i nama ir kylu laiptais');
+    } else if (kaipKilti === 'liftas') {
+        console.log('Ieinu i nama ir kylu liftu');
+    } else {
+        console.log('Ieinu i nama ir nera kaip kilti i virsu');
     }
-  
 }
+ else if (namoTipas === 'butas') {
+     if (kaipKilti === 'laiptai') {
+         console.log('Ieinu i daugiaauksti nama ir kylu laiptais');
+     } else if (kaipKilti === 'liftas') {
+         console.log('Ieinu i daugiaauksti nama ir nera kaip kilti i virsu');
+     } 
+    } else {
+        console.log('Nurodytas namo tipas nezinomas');
+    }
+
+
     

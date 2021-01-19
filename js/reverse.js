@@ -1,10 +1,11 @@
 "use strict"
 
 /*
-galo i prieki.
+Perrasyti teksta is galo i prieki.
 */
 
 const text = 'abcdef';
+const size = text.
 let reverseText = '';
 
 /*
