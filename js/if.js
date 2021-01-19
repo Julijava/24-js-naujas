@@ -15,8 +15,8 @@ if (tikrinama salyga) {
 SABLONAI:
  if () {}
  if () {} else {}
-if () {} else 
-
+ if () {} else if {} ....else if () {}
+ if () {} else if {} ....else if () {} else {}
 */
 
 const a = 4;
