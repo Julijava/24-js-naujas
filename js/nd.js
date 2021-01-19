@@ -171,7 +171,6 @@ console.log(`"${zodis}" ilgis yra ${zodisIlgis}.`);
 console.log('---------------------------------');
 
 
-
 /*
 Tarpusavyje palyginti teksto tipo kintamųjų ilgius:
 1.	kuris didesnis
@@ -183,4 +182,26 @@ Tarpusavyje palyginti teksto tipo kintamųjų ilgius:
 
 
 */
+
+const zodis2 = 'namai';
+const zodisIlgis2 = zodis.length;
+console.log(`"${zodis2}" ilgis yra ${zodisIlgis2}.`);
+
+console.log('Mano namai!', 'Mano namai!'.length);
+
+const zodis3 = 'trys';
+const zodisIlgis3 = zodis.length;
+const zodis4 = 'keturi';
+const zodisIlgis4 = zodis.length;
+console.log(`"${zodis3}" ilgis yra ${zodisIlgis3}.`);
+
+if (zodis3 === zodis4) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta!');
+}
+
+// 4.	Išvesti sąrašo tipo kintamųjų ilgius
+
+const sarasas = ('mokslas', 'egzas', 'darbas')
 
