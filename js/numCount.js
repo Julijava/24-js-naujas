@@ -17,8 +17,6 @@ let sum = 0;
 
 for (let i = from; i <= till; i++) {
     sum += i;
-
-    console.log(i, sum);
 }
 
 const ats = `Suma nuo ${from} iki ${till} yra ${sum}.`;
@@ -31,7 +29,13 @@ console.log(ats);
     i++ -> i = 4
 
 i = 4; 4 <= 5 -> true
-    sum = 0 + 3 = 7
+    sum = 3 + 4 = 7
     i++ -> i = 5
 
+    i = 5; 5 <= 5 -> true
+    sum = 5 + 7 = 12
+    i++ -> i = 6
+
+    i = 6; 6 <= 5 -> false
+    
 */

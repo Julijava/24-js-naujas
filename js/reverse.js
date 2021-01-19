@@ -5,8 +5,15 @@ Perrasyti teksta is galo i prieki.
 */
 
 const text = 'abcdef';
-const size = text.
+const size = text.length;
 let reverseText = '';
+
+for (let i = 0; i < text.length; i++){
+    const letter = text[i];
+    reverseText = letter + reverseText;
+    console.log(i, letter, reverseText);
+}
+
 
 /*
 for (let i = 0; i < text.length; i++) {
@@ -19,3 +26,40 @@ for (let i = 0; i < text.length; i++) {
 
 console.log('Final gavau:', reverseText);
 */
+/*
+for (let i = 0; i < size; i++){
+    const letter = text[size -i - 1];
+    reverseText += letter;
+    console.log(i, letter, reverseText);
+}
+
+console.log('Final gavau:', reverseText);
+*/
+/*
+for (let i = 1; i <= size; i++){
+    const letter = text[size -i];
+    reverseText += letter;
+    console.log(i, letter, reverseText);
+}
+
+console.log('Final gavau:', reverseText);
+*/
+/*
+for (let i = size - 1; i >= 0; i--) {
+    const letter = text[i];
+    reverseText += letter;
+    console.log(i, letter, reverseText);
+}
+
+console.log('Final gavau:', reverseText);
+*/
+/*
+for (let i = size; i > 0; i--) {
+    const letter = text[i - 1];
+    reverseText += letter;
+    console.log(i, letter, reverseText);
+}
+
+console.log('Final gavau:', reverseText);
+*/
+
