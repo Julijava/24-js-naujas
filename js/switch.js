@@ -64,11 +64,11 @@ switch (day3) {
 
 console.log('----------------');
 
-const stotele = 'ziedas';
+const stotele = 'rudens2';
 
 switch (stotele) {
-    case 'ziedas':
-        console.log('ziedas');
+    case 'ziedas1':
+        console.log('ziedas1');
     case 'parko':
         console.log('parko');
     case 'geniu':
@@ -84,10 +84,44 @@ switch (stotele) {
     case 'zaliasis':
         console.log('zaliasis');
         break;
+
+    case 'lvovo':
+            console.log('lvovo');
+    case 'vasaros':
+        console.log('vasaros');
+    case 'rudens2':
+        console.log('rudens2');
+    case 'tremtiniu':
+        console.log('tremtiniu');
+    case 'ziedas2':
+        console.log('ziedas2');
+        break;
     default:
         console.log('tokia stotele nerasta');
 }
 console.log('-------------------');
+
+const eiga = 'baldai';
+
+switch (eiga) {
+    case 'zeme':
+        console.log('Paruosiame zeme');
+    case 'pamatai':
+        console.log('Paruosiame pamatus');
+    case 'sienos':
+        console.log('Statome sienas');
+    case 'stogas':
+        console.log('Statome stoga');
+    case 'apsiltinimas':
+        console.log('Apsiltinam nama');
+    case 'irengimas':
+        console.log('Dirbame viduje');
+        break;
+
+    default:
+        console.log('tokio darbo nera');
+}
+
 
 
 
